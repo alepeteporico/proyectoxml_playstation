@@ -1,3 +1,7 @@
+from lxml import etree
+datos=etree.parse("Playstation.xml")
+from funciones import * 
+
 while True:
     print("=============================================MENÚ=============================================")
     print("1. Listar consolas de sobremesa o portatiles y después te pregunta si quieres listar los juegos de alguna de ellas.")
@@ -8,3 +12,10 @@ while True:
     print("6. Salir")
     print("==============================================================================================")
     opc=int(input("Elige una opción: "))
+
+    if opc==1:
+        for consola in ej1(datos):
+            print("-",consola)
+    
+    elif opc==6:
+        break
