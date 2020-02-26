@@ -37,6 +37,7 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game>Grand Theft Auto</game>
 					<game>Final Fantasy VII</game>
 					<game>Sillent Hill</game>
+					<game>Gran Turismo</game>
 					<game>Castelvania: Symphony of the night</game>
 					<game tipo="exclusivos">Spyro the Dragon</game>
 					<game tipo="exclusivos">Gran Turismo</game>
@@ -58,6 +59,7 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game>Rachet and clank</game>
 					<game>Need for speed underground</game>
 					<game>Splinter Cell</game>
+					<game>Grand Theft Auto: San Andreas</game>
 					<game>Crash Bandicoot: Lucha de titanes</game>
 					<game>Mortal combat armageddon</game>
 					<game tipo="exclusivos">God of war</game>
@@ -93,6 +95,7 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game>Bioshock</game>
 					<game>Bioshock 2</game>
 					<game>Bioshok Infinite</game>
+					<game>Grand Theft Auto V</game>
 					<game>Dark souls</game>
 					<game>Dark souls 2</game>
 					<game tipo="exclusivos">The last of us</game>
@@ -131,6 +134,7 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game>Star wars Jedi fallen order</game>
 					<game>COD: Mordern Warfare</game>
 					<game>The witcher 3: Wild hunt</game>
+					<game>COD: Black Ops 3</game>
 					<game>Cyberpunk 2077</game>
 					<game>Marvel's Avengers</game>
 					<game>Sekiro Shadows die twice</game>
@@ -169,6 +173,12 @@ relationships with Philips for the MMCD development project (which helped lead t
 			 	<media>UMD</media>
 			 	<best>Monster Hunter Portable 3rd</best>
 			 	<games>
+				 	<game tipo="Exclusivo">Daxter</game>
+					<game tipo="Exclusivo">Monster Hunter Portable 3rd</game>
+					<game tipo="Exclusivo">God of War: Chains of Olympus</game>
+					<game>Assasins Creed Bloodlines</game>
+					<game>Battlefront</game>
+					<game>Crash Bandicoot: Lucha de titanes</game>
 				</games>
 			</PSP>
 			
@@ -182,6 +192,14 @@ relationships with Philips for the MMCD development project (which helped lead t
 				<media>PS Vita Card</media>
 				<best>Uncharted: Golden Abyss</best>
 				<games>
+					<game>Rayman Legends</game>
+					<game>Rayman Origins</game>
+					<game>Terraria</game>
+					<game tipo="Exclusivo">Uncharted: Golden Abyss</game>
+					<game>Call Of Duty: Black Ops Declassified</game>
+					<game tipo="Exclusivo">Soul Sacrifice Delta</game>
+					<game tipo="Exclusivo">Tearaway</game>
+					<game tipo="Exclusivo">Killzone: Mercenary</game>
 				</games>
 			</VITA>
 		
