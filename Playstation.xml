@@ -21,9 +21,7 @@ relationships with Philips for the MMCD development project (which helped lead t
 		</History>
 		
 		<Consoles>
-		
-		
-		 	<Playstation>
+		 	<Console id="Playstation">
 		    	<date>
 					<month>September</month> 
 				 	<day>19</day>
@@ -42,9 +40,9 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game tipo="exclusivos">Spyro the Dragon</game>
 					<game tipo="exclusivos">Gran Turismo</game>
 				</games>
-		  	</Playstation>
+		  	</Console>
 		  
-		  	<PS2>
+		  	<Console id="PS2">
 				<date>
 				 	<month>November</month> 
 					<day>24</day>
@@ -68,9 +66,9 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game tipo="exclusivos">Rachet and clank</game>
 					<game tipo="exclusivos">Jack And daxter: The lost Frontier</game>
 				</games>
-		  	</PS2>
+		  	</Console>
 		  
-		    <PS3>
+		    <Console id="PS3">
 				<date>
 				 	<month>February</month> 
 					<day>22</day>
@@ -110,9 +108,9 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game tipo="exclusivos">Gran Turismo 5</game>
 					<game tipo="exclusivos">Little big planet</game>
 				</games>
-		    </PS3>
+		    </Console>
 			 
-			<PS4>
+			<Console id="PS4">
 			 	<date>
 			 		<month>November</month> 
 					<day>29</day>
@@ -156,13 +154,11 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game tipo="exclusivos">Bloodborne</game>
 					<game tipo="exclusivos">The order 1886</game>
 				</games>
-			</PS4>
-			 
-			 
+			</Console> 
 		</Consoles>
 		
 		<Handhelds>
-		    <PSP>
+		    <Console id="PSP">
 				<date>
 			 		<month>September</month> 
 					<day>1</day>
@@ -180,9 +176,9 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game>Battlefront</game>
 					<game>Crash Bandicoot: Lucha de titanes</game>
 				</games>
-			</PSP>
+			</Console>
 			
-			<VITA>
+			<Console id="VITA">
 				<date>2000
 					<month>February</month> 
 					<day>22</day>
@@ -201,7 +197,7 @@ relationships with Philips for the MMCD development project (which helped lead t
 					<game tipo="Exclusivo">Tearaway</game>
 					<game tipo="Exclusivo">Killzone: Mercenary</game>
 				</games>
-			</VITA>
+			</Console>
 		
 		</Handhelds>
 		

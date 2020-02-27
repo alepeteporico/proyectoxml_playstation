@@ -12,10 +12,22 @@ while True:
     print("6. Salir")
     print("==============================================================================================")
     opc=int(input("Elige una opción: "))
+    print("")
 
     if opc==1:
-        for consola in ej1(datos):
+        print("----SOBREMESA----")
+        for consola in ej1(datos)[0]:
             print("-",consola)
-    
+        
+        print("----PORTATIL----")
+        for consola in ej1(datos)[1]:
+            print("-",consola)
+        
+        opcion=input("¿Quieres listar los juegos de alguna consola? (s/n): ")
+
+        while opcion=="s":
+            consola=input("Dime la consola de la que quieres listar los juegos: ")
+            
+
     elif opc==6:
         break
