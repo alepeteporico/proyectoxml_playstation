@@ -53,6 +53,28 @@ while True:
         print("Salio en",ej4(datos,juego)[0],"El precio de esta consola de salida fue",ej4(datos,juego)[1])
         print("------------------------------------------------------------------")
         print("")
+    
+    elif opc==5:
+        consola=input("Dime una consola: ")
+        print("----JUEGOS----")
+        for juego in ej1_2(datos,consola):
+            print("-",juego)
+        print("--------------------")
+        print("")
+        cont=1
+        juego=input("Dime un juego: ")
+        while ej5(datos,juego,consola)==False and cont<3:
+            juego=input("Incorrecto, dime otro juego: ")
+            cont=cont+1
+        print("")
+        
+        if ej5(datos,juego,consola):
+            print("CORRECTO")
+        else:
+            print("Fallaste, has superado el numero de intentos")
+            print("La respuesta correcta era",ej5_1(datos,juego,consola))
+        print("------------------------------------------------------------------")
+        print("")
         
 
     elif opc==6:

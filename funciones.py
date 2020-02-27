@@ -20,3 +20,13 @@ def ej4(datos,juego):
     consola=(datos.xpath('//games[game/text()="%s"]/../@id'%juego))[0]
     precio=float((datos.xpath('//Console[@id="%s"]/price/text()'%consola))[0])
     return consola,precio
+
+def ej5(datos,juego,consola):
+    if juego==(datos.xpath('//Console[@id="%s"]/best/text()'%consola))[0]:
+        return True
+    else:
+        return False
+
+def ej5_1(datos,juego,consola):
+    mejor=(datos.xpath('//Console[@id="%s"]/best/text()'%consola))[0]
+    return mejor
