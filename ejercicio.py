@@ -38,11 +38,22 @@ while True:
         consola=input("Dime la consola de la que quieres contar los juegos: ")
         print("El numero de juegos de la",consola,"Es",ej2(datos,consola)[0])
         print("El numero de exclusivos de la",consola,"Es",ej2(datos,consola)[1])
+        print("------------------------------------------------------------------")
+        print("")
 
     elif opc==3:
         fecha=input("Dime un año: ")
         for consola in ej3(datos,fecha):
             print("-",consola)
+        print("------------------------------------------------------------------")
+        print("")
+
+    elif opc==4:
+        juego=input("Dime un juego: ")
+        print("Salio en",ej4(datos,juego)[0],"El precio de esta consola de salida fue",ej4(datos,juego)[1])
+        print("------------------------------------------------------------------")
+        print("")
+        
 
     elif opc==6:
         break
