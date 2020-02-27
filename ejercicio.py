@@ -27,7 +27,12 @@ while True:
 
         while opcion=="s":
             consola=input("Dime la consola de la que quieres listar los juegos: ")
-            
+            for juego in ej1_2(datos,consola):
+                print("-",juego)
+            print("--------------------")
+            opcion=input("¿Quieres listar los juegos de alguna consola? (s/n): ")
+        print("------------------------------------------------------------------")
+        print("")
 
     elif opc==6:
         break
