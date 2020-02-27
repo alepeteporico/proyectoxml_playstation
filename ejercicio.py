@@ -34,5 +34,13 @@ while True:
         print("------------------------------------------------------------------")
         print("")
 
+    elif opc==2:
+        consola=input("Dime la consola de la que quieres contar los juegos: ")
+        print("El numero de juegos de la",consola,"Es",ej2(datos,consola)[0])
+        print("El numero de exclusivos de la",consola,"Es",ej2(datos,consola)[1])
+
     elif opc==6:
         break
+
+    else:
+        print("ERROR, ESTÁ OPCIÓN NO EXISTE.")
