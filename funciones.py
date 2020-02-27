@@ -13,9 +13,5 @@ def ej2(datos,consola):
     return total,exclusivos
 
 def ej3(datos,fecha):
-    consolas=[]
-    years=(datos.xpath("//date/year/text()"))
-    for year in years:
-        if fecha>year:
-            consolas.append(datos.xpath('//Console/date[year="%s"]/../Console/@id'%year))
+    consolas=(datos.xpath('//date[year/text()<"%s"]/../@id'%fecha))
     return consolas
