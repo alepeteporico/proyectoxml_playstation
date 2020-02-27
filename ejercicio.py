@@ -40,8 +40,9 @@ while True:
         print("El numero de exclusivos de la",consola,"Es",ej2(datos,consola)[1])
 
     elif opc==3:
-        fecha=input("Dime una fecha (dd/mm/yyyy): ")
-        
+        fecha=input("Dime un año: ")
+        for consola in ej3(datos,fecha):
+            print("-",consola)
 
     elif opc==6:
         break

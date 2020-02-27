@@ -12,10 +12,10 @@ def ej2(datos,consola):
     exclusivos=len((datos.xpath('//Console[@id="%s"]/games/game/@tipo'%consola)))
     return total,exclusivos
 
-def convertir_fecha(fecha):
-    dia=fecha.split("/")[0]
-    mes=fecha.split("/")[1]
-    year=fecha.split("/")[2]
-
-def ej3(datos):
-    
+def ej3(datos,fecha):
+    consolas=[]
+    years=(datos.xpath("//date/year/text()"))
+    for year in years:
+        if fecha>year:
+            consolas.append(datos.xpath('//Console/date[year="%s"]/../Console/@id'%year))
+    return consolas
