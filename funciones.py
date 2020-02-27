@@ -11,3 +11,11 @@ def ej2(datos,consola):
     total=len((datos.xpath('//Console[@id="%s"]/games/game/text()'%consola)))
     exclusivos=len((datos.xpath('//Console[@id="%s"]/games/game/@tipo'%consola)))
     return total,exclusivos
+
+def convertir_fecha(fecha):
+    dia=fecha.split("/")[0]
+    mes=fecha.split("/")[1]
+    year=fecha.split("/")[2]
+
+def ej3(datos):
+    
